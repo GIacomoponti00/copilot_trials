@@ -69,6 +69,7 @@ if (middleThree("abc") === "abc") {
 var unitTest = require('./unitTest.js');
 
 
+
 unitTest(middleThree("Candy"), "and");
 unitTest(middleThree("and"), "and");
 unitTest(middleThree("solving"), "lvi");
