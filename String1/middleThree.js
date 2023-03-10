@@ -1,8 +1,6 @@
 //Given a string of odd length, return the string length 3 from its middle, so "Candy" yields "and". The string length will be at least 3.
 //Add a check for the minimum length of the string. If the string is less than 3, return the string as is.
 
-
-
 function middleThree(str) { 
   if (str.length < 3) { 
     return str;
@@ -65,4 +63,14 @@ if (middleThree("abc") === "abc") {
   console.log("Test Failed");
 }
 
+//write some test for the function middleThree(str)
+//test for the function middleThree(str)
+//import the unitTest function
+var unitTest = require('./unitTest.js');
 
+
+unitTest(middleThree("Candy"), "and");
+unitTest(middleThree("and"), "and");
+unitTest(middleThree("solving"), "lvi");
+unitTest(middleThree("Hi yet Hi"), "yet");
+unitTest(middleThree("java yet java"), "yet");
