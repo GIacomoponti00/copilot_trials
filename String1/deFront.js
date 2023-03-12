@@ -14,5 +14,5 @@ function deFront(str) {
     return result;
     }
 
- 
+
 module.exports = { deFront };
